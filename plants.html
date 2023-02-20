@@ -13,6 +13,25 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
 <h1>Plants by Naveen Manne</h1>
 <div class = "container">
   <div class="row">
@@ -43,9 +62,9 @@
 </div>
 <br>
 <div class="container">
-  <img class="img-fluid" src="verbena.png" alt="verbena" >
-  <img class="img-fluid" src="nandina.png" alt="nandina"  >
-  <img class="img-fluid" src="machilus.png" alt="machilus" >   
+  <img class="img-fluid" src="verbena1.jpg" alt="verbena" width="400" >
+  <img class="img-fluid" src="nandina.jpg" alt="nandina" width="400" >
+  <img class="img-fluid" src="machilus.jpg" alt="machilus" width="400">   
 </div>
 <br>
 <div class="container">
@@ -138,6 +157,26 @@
         </ul>
         <caption>Drop down </caption>
     </div>
+<br>
+<div class="container">
+  <form actions="">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email id</label>
+    <input type="email" placeholder="Enter your email id " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We will not share your email address with anyone else.</div>
+  </div>
+  <div class="form-group">
+    <label for="plants" class="form-label">Plants</label>
+    <input type="text" placeholder="Enter your plant" class="form-control" for="plant">
+    <div id="plantChoice" class="form-text">Enter your Plant.</div>
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck">
+    <label class="form-check-label" for="exampleCheck">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
 
 </body>
 </html>
